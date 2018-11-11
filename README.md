@@ -1,2 +1,2 @@
-# restaurant.krafik.github.io
+# restaurant
 practice in psd layout
