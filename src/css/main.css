@@ -1,0 +1,242 @@
+@font-face {
+  font-family: gentium_book_basic;
+  src: url(../fonts/gentium_book_basic.ttf);
+}
+@font-face {
+  font-family: YesevaOne;
+  src: url(../fonts/YesevaOne-Regular.ttf);
+}
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+a:hover {
+  text-decoration: none;
+}
+.l-grad-header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(transparent));
+  background: linear-gradient(to bottom, #000000, transparent);
+}
+/*header*/
+.header {
+  font-family: gentium_book_basic;
+  height: 750px;
+  background-image: url(../img/SectionBackground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.navigation {
+  max-width: 1600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0 auto;
+  min-height: 100px;
+}
+.item-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 15px;
+}
+.item-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.item-nav ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  font-size: 21px;
+  margin-left: 58px;
+}
+.item-nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-top: 3px solid transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.item-nav ul li a.active {
+  border-top: 3px solid white;
+}
+.item-nav ul li a:hover {
+  border-top: 3px solid white;
+}
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.social ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  margin-left: 15px;
+}
+.social ul li a {
+  color: #dab33e;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 84px;
+}
+.text p {
+  font-family: YesevaOne;
+  font-size: 90px;
+  color: white;
+  text-align: center;
+  margin-top: 36px;
+}
+.icon {
+  margin-top: 20px;
+}
+.icon svg {
+  fill: white;
+  width: 240px;
+  height: 40px;
+}
+.icon svg .st0 {
+  stroke: white;
+}
+.btns-header {
+  margin-top: 35px;
+}
+.btn-black,
+.btn-white {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  width: 230px;
+}
+.btn-black p,
+.btn-white p {
+  text-transform: uppercase;
+  font-family: Lato;
+  font-size: 18px;
+}
+.btn-black:hover,
+.btn-white:hover {
+  color: white;
+}
+.btn-black {
+  border: 1px solid black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-right: 15px;
+}
+.btn-black:hover {
+  -webkit-box-shadow: 0 0 10px white;
+          box-shadow: 0 0 10px white;
+}
+.btn-white {
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-left: 15px;
+}
+.btn-white:hover {
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+}
+.l-grad-about {
+  background: linear-gradient(-45deg, rgba(230, 230, 230, 0.7), transparent);
+}
+/*section about*/
+.about-sect {
+  height: 710px;
+  background-image: url(../img/bg-cook.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.about-sect .cook {
+  text-align: center;
+  margin-top: 100px;
+  height: 510px;
+}
+.about-sect .cook .cook-head-text {
+  font-size: 36px;
+  font-family: YesevaOne;
+  color: #cc9900;
+  text-align: center;
+  line-height: 1.4;
+}
+.about-sect .cook .about-text p {
+  font-family: Lato;
+  font-size: 16px;
+  color: #4c4c4c;
+  line-height: 1.5;
+  text-align: center;
+}
+.about-sect .cook .cook-img {
+  position: relative;
+  top: 60px;
+  left: 45px;
+}
+.about-sect .divider {
+  margin-bottom: 30px;
+}
+.about-sect .divider svg {
+  fill: #cc9900;
+  width: 255px;
+  height: 24px;
+}
+.about-sect .divider svg .st0 {
+  stroke: #cc9900;
+}
+.about-sect .about-text {
+  margin-top: 10px;
+}
+.about-sect .dish {
+  margin-top: 30px;
+}
+.about-sect .dish img {
+  height: 700px;
+  width: 700px;
+}
